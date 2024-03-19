@@ -250,4 +250,9 @@ h3 {
     .centerTitle {
         font-size: 60px;
     }
+
+    .floating-card {
+        width: 80%;
+        font-size: 58px;
+    }
 }
