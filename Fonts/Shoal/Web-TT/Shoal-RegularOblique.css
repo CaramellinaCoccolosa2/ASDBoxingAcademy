@@ -1,0 +1,12 @@
+/* Webfont: Shoal-Oblique */@font-face {
+    font-family: 'ShoalOblique';
+    src: url('Shoal-RegularOblique.eot'); /* IE9 Compat Modes */
+    src: url('Shoal-RegularOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Shoal-RegularOblique.woff') format('woff'), /* Modern Browsers */
+         url('Shoal-RegularOblique.woff2') format('woff2'), /* Modern Browsers */
+         url('Shoal-RegularOblique.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

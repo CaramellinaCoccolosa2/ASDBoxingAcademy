@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+    <body style="overflow: hidden">
+        <head>
+            <link rel="stylesheet" href="style.css">
+            <title>Asd Boxing Academy</title>
+        </head>
+        <section name="HomePageBar">
+            <div class="bar" style="z-index: 10;">
+                <img src="Images/logo.jpg" alt="Logo" class="logo" onclick="goTo('index.html')">
+                <div class="barItem">
+                    <p class="subtitle"><a href="index.html">Home</a></p>   
+                </div>
+                <div class="barItem">
+                    <p class="subtitle"><a href="gallery.html">Gallery</a></p>   
+                </div>
+                <div class="barItem">
+                    <p class="subtitle"><a href="contacts.html">Informati</a></p>      
+                </div>
+                <div class="barItem">
+                    <p class="subtitle"><a href="events.html">Eventi</a></p>            
+                </div>
+            </div>
+            <div class="mobileBar" onclick="dropDown('unicoh')">
+                <!-- <img src="Images/logo.jpg" alt="Logo" class="logo" onclick="goTo('index.html')">
+                <div class="barItem">
+                    <p class="subtitle"><a href="index.html">Home</a></p>   
+                </div>
+                <div class="barItem">
+                    <p class="subtitle"><a href="gallery.html">Gallery</a></p>   
+                </div>
+                <div class="barItem">
+                    <p class="subtitle"><a href="contacts.html">Informati</a></p>      
+                </div>
+                <div class="barItem">
+                    <p class="subtitle"><a href="events.html">Eventi</a></p>            
+                </div> -->
+            </div>
+            <div class="dropDown" id="unicoh">
+                <div style="min-height: 5vh">Ula</div>
+                <div style="min-height: 5vh">Ulo</div>
+                <div style="min-height: 5vh">Aulu</div>
+                <div style="min-height: 5vh">Ullala</div>
+            </div>
+        </section>
+        <div class="homepage">
+            <h1 class="centerTitle">ASD Boxing Academy Palombara</h1>
+            <button class="titleButton" onclick="goTo('contacts.html')">Fai una prova!</button>
+        </div>
+
+        <footer>
+            <div class="bottomGrid">
+                
+            </div>
+        </footer>
+    </body>
+</html>
+<script src="script.js"></script>

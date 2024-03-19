@@ -1,0 +1,9 @@
+/* Webfont: Shoal-Bold */@font-face {
+    font-family: 'ShoalBold';
+    src: url('Shoal-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('Shoal-Bold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
