@@ -16,10 +16,10 @@ function scrollToView(link) {
 
 function dropDown(id){
     if(open == true) {
-        document.getElementById(id).style.height = '0vh';
+        document.getElementById(id).classList.remove('mobileBarExtend');
         open = false;
     } else {
-        document.getElementById(id).style.height = '20vh';
+        document.getElementById(id).classList.add('mobileBarExtend');
         open = true;
     }
 } 
