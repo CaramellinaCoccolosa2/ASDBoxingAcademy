@@ -265,7 +265,7 @@ h3 {
     .homepage {
         background-image: url('Images/elisaCordeDarken.jpg');
         background-position-y: 0;
-        background-position-x: 0;
+        background-position-x: center;
         background-size: cover;
         min-height: 100vh;
     }
