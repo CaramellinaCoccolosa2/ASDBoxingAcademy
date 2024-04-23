@@ -6,6 +6,8 @@
 @font-face {
     font-family: 'title';
     src: url('Fonts/Galey/Prestigetype Studio - Galey Rounded Extra Light.ttf');
+    src: url('Fonts/Galey/galeyRounded.woff') format('woff'),
+         url('Fonts/Galey/galeyRounded.woff2') format('woff2'),
 }
 
 a {
