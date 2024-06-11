@@ -186,6 +186,15 @@ h3 {
     height: fit-content;
     gap: 10px;
     justify-content: center;
+    padding: 5px;
+}
+
+.galleryCol {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 25%;
+    margin: 10px;
 }
 
 .galleryImg {

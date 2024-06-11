@@ -1,7 +1,6 @@
 'use strict';
 
 let open = false;
-// document.cookie = "wantsToGoToProva = true";
 
 function goTo(link) {
     window.location = link;
@@ -22,13 +21,4 @@ function dropDown(id){
         document.getElementById(id).classList.add('mobileBarExtend');
         open = true;
     }
-} 
-
-// window.onload = function () {
-//     alert(document.cookie);
-//     if(document. == true) {
-//         alert("Prova is " + wantsToGoToProva);
-//         document.getElementById("prova").scrollIntoView();
-//         wantsToGoToProva = false;
-//     }
-// }
+}
